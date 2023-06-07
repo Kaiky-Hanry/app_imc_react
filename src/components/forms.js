@@ -20,7 +20,7 @@ const Form = (props) => {
         <input type="number" required value={height} onChange={e => {
           setHeight(e.target.value);
         }} />
-        <button class="btn-Calc">Calcular</button>
+        <button>Calcular</button>
       </form>
     </div>
   );
